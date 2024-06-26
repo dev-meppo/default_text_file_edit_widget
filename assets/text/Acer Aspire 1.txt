@@ -1,0 +1,14 @@
+Acer Aspire One ARM Laptop To Have "Almost Full" Support With Linux 6.10
+Written by Michael Larabel in Arm on 21 April 2024 at 06:46 AM EDT. 17 Comments
+ARM
+The good news is that with the upcoming Linux 6.10 kernel cycle the ARM-based Acer Aspire One laptop will feature "almost full" support for this Qualcomm Snapdragon powered laptop. The downside though it's now a three year old device with far more interesting ARM laptops on the market and more powerful options coming to the market this year.
+
+For quite a while open-source developers/enthusiasts have been working on Linux support for the Acer Aspire One that launched in 2021 and features an eight-core Qualcomm Snapdragon 7c SoC. The base SKU features just 4GB of system memory and 64GB of eMMC storage while having a 14-inch display.
+
+Most of the Acer Aspire One Linux support has been upstreamed over the course of the last year but the EC driver support is needed for "almost full support" for this laptop. Getting the embedded controller working nicely was one of the last remaining pieces for a good Linux experience with this Acer ARM laptop.
+
+Acer Aspire 1
+
+That Acer Aspire One embedded controller driver is set to be upstreamed for the Linux 6.10 kernel cycle. The EC driver is needed for battery/charger monitoring, USB Type-C DP Alt Mode HPD, lid status detection, some keyboard configuration, and related EC functionality. Supporting the EC has required a custom driver that went through months of review and revisions.
+
+This Acer Aspire One driver was recently queued into the platform-drivers-x86 for-next branch confirming it as intended for submission during next month's Linux 6.10 merge window. The nearly 600 line driver plus the associated DeviceTree code is ready to go for Linux 6.10
